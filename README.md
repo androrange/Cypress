@@ -34,26 +34,6 @@ This project focuses on validating real user flows, handling edge cases, and imp
 
 ---
 
-## 📂 Project Structure
-cypress/
-│── e2e/
-│ ├── login.cy.js
-│ ├── form-validation.cy.js
-│ └── navigation.cy.js
-│
-│── fixtures/
-│ └── test-data.json
-│
-│── support/
-│ ├── commands.js
-│ └── e2e.js
-│
-package.json
-cypress.config.js
-README.md
-
----
-
 ## ▶️ How to Run
 
 ```bash
