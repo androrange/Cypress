@@ -8,11 +8,11 @@ This project focuses on validating real user flows, handling edge cases, and imp
 
 ## 📌 Key Features
 
-- ✅ End-to-End Testing (User Flow)
-- ✅ Positive & Negative Test Cases
-- ✅ Form Validation Testing
-- ✅ UI & Functional Testing
-- ✅ Error Handling Validation
+✅ End-to-End Testing (User Flow)
+✅ Positive & Negative Test Cases
+✅ Form Validation Testing
+✅ UI & Functional Testing
+✅ Error Handling Validation
 
 ---
 
