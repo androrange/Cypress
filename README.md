@@ -1,30 +1,67 @@
-📌 Project Description
+# 🚀 Cypress E2E Automation Testing
 
-This project is an end-to-end automation testing suite built using Cypress to validate core functionalities of a web-based application. The main goal of this project is to ensure application stability, improve testing efficiency, and support regression testing through automated test execution.
+End-to-end automation testing project built using **Cypress** to ensure application quality, stability, and faster regression testing.
 
-The test scenarios are designed based on real user flows, covering both positive and negative test cases to ensure the system behaves correctly under various conditions.
+This project focuses on validating real user flows, handling edge cases, and implementing maintainable automation practices.
 
-🚀 Scope of Testing
+---
 
-The automation covers several key features, including:
+## 📌 Key Features
 
-User authentication (login & logout)
-Form validation (positive & negative scenarios)
-Core user flows and navigation
-Error handling and validation messages
-🔍 Test Approach
+- ✅ End-to-End Testing (User Flow)
+- ✅ Positive & Negative Test Cases
+- ✅ Form Validation Testing
+- ✅ UI & Functional Testing
+- ✅ Error Handling Validation
 
-Each test case includes validations such as:
+---
 
-UI element visibility and interaction
-Expected vs actual results verification
-Input validation and boundary testing
-End-to-end user flow validation
+## 🔍 Test Coverage
 
-The project follows a structured testing approach by organizing test cases into reusable components and maintaining clean test scripts for scalability.
+- Login & Logout functionality
+- Form input validation
+- Navigation flow
+- Error messages & edge cases
 
-🛠️ Tech Stack
-Cypress
-JavaScript
-Node.js
-Git & GitHub
+---
+
+## 🛠️ Tech Stack
+
+- Cypress
+- JavaScript
+- Node.js
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+cypress/
+│── e2e/
+│ ├── login.cy.js
+│ ├── form-validation.cy.js
+│ └── navigation.cy.js
+│
+│── fixtures/
+│ └── test-data.json
+│
+│── support/
+│ ├── commands.js
+│ └── e2e.js
+│
+package.json
+cypress.config.js
+README.md
+
+---
+
+## ▶️ How to Run
+
+```bash
+# Install dependencies
+npm install
+
+# Open Cypress UI
+npx cypress open
+
+# Run headless
+npx cypress run
